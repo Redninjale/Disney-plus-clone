@@ -207,8 +207,8 @@ const Login = styled.a`
     text-transform: uppercase;
     padding: 6px 0px;
     text-align: center;
-    letter-spacing: 1.5px;
-    border: 1px solid #f9f9f9;
+    letter-spacing: 1.2px;
+    border: 2px solid #f9f9f9;
     border-radius: 4px;
     transition: all 250ms ease 0s;
     position: absolute;
