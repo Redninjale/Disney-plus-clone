@@ -84,15 +84,14 @@ function Header() {
             <span>SERIES</span>
             </a>
         </NavMenu>
-        </>
-        }
-        
         <SignOut>
-            <UserImg src={userPhoto} alt={userName}/>
+            <UserImg referrerpolicy="no-referrer" src={userPhoto} alt={userName} />
             <DropDown>
                 <span onClick={handleAuth}>SignOut</span>
             </DropDown>
         </SignOut>
+        </>
+        }
         </Nav>
     )
 }
@@ -205,8 +204,9 @@ const SignOut = styled.div`
 
 const Login = styled.a`
     background-color: rgba(0,0,0, 0.6);
-    padding: 8px 16px;
     text-transform: uppercase;
+    padding: 6px 0px;
+    text-align: center;
     letter-spacing: 1.5px;
     border: 1px solid #f9f9f9;
     border-radius: 4px;
@@ -218,5 +218,6 @@ const Login = styled.a`
         background-color: white;
         color: black;
         border-color: transparent;
+        cursor: pointer;
     }
 `
